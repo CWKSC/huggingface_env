@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/**.egg-info": true,
+        ".gitattributes": true
+    }
+}
