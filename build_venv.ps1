@@ -7,7 +7,11 @@ pip install --pre torch torchvision torchaudio --index-url https://download.pyto
 pip install huggingface_hub
 pip install git+https://github.com/huggingface/transformers.git
 
+# Quantization
 # https://huggingface.co/docs/transformers/main_classes/quantization
 pip install auto-gptq
 pip install git+https://github.com/huggingface/optimum.git
 pip install --upgrade accelerate
+# For GGUF
+pip install ctransformers[cuda]
+
