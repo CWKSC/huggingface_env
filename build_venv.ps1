@@ -4,8 +4,11 @@ py -3.9 -m venv venv
 python -m pip install --upgrade pip
 
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
+
 pip install huggingface_hub
 pip install git+https://github.com/huggingface/transformers.git
+
+pip install git+https://github.com/huggingface/peft
 
 # Quantization
 # https://huggingface.co/docs/transformers/main_classes/quantization
