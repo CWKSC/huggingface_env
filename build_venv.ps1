@@ -8,7 +8,7 @@ pip install --pre torch torchvision torchaudio --index-url https://download.pyto
 pip install huggingface_hub
 pip install git+https://github.com/huggingface/transformers.git
 pip install git+https://github.com/huggingface/datasets.git
-pip install evaluate jiwer
+pip install accelerate soundfile librosa evaluate jiwer tensorboard gradio
 
 # Fine tune
 pip install git+https://github.com/huggingface/peft
