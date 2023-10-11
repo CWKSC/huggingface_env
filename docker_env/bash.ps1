@@ -1,0 +1,1 @@
+docker exec -it huggingface_container /bin/bash

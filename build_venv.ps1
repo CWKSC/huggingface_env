@@ -3,21 +3,20 @@ py -3.9 -m venv venv
 
 python -m pip install --upgrade pip
 
-pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 pip install huggingface_hub
-pip install git+https://github.com/huggingface/transformers.git
-pip install git+https://github.com/huggingface/datasets.git
+pip install transformers
+pip install datasets
 pip install accelerate soundfile librosa evaluate jiwer tensorboard gradio
 
 # Fine tune
-pip install git+https://github.com/huggingface/peft
+pip install peft
 
 # Quantization
 # https://huggingface.co/docs/transformers/main_classes/quantization
 pip install auto-gptq
-pip install git+https://github.com/huggingface/optimum.git
-pip install --upgrade accelerate
+pip install optimum
 # For GGUF
 pip install ctransformers[cuda]
 
